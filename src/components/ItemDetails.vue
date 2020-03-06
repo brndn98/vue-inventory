@@ -4,16 +4,8 @@
     <div>
       <i class="fas fa-plus icon increment" @click="incrementItem(item.id)"></i>
       <span>{{ item.amount }}</span>
-      <i
-        v-if="item.amount > 0"
-        class="fas fa-minus icon decrement"
-        @click="decrementItem(item.id)"
-      ></i>
-      <i
-        v-else
-        class="fas fa-times icon decrement unavailable delete"
-        @click="deleteItem(item.id)"
-      ></i>
+      <i v-if="item.amount > 0" class="fas fa-minus icon decrement" @click="decrementItem(item.id)"></i>
+      <i v-else class="fas fa-times icon decrement unavailable delete" @click="deleteItem(item.id)"></i>
     </div>
   </li>
 </template>
@@ -40,7 +32,7 @@ export default {
 
 <style scoped>
 li {
-  width: 95%;
+  width: 97%;
   height: 15%;
   display: flex;
   flex-wrap: nowrap;

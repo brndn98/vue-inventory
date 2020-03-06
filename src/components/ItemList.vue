@@ -32,7 +32,7 @@ export default {
 
 <style scoped>
 ul {
-  width: 90%;
+  width: 95%;
   height: 70%;
   padding: 0;
   display: flex;

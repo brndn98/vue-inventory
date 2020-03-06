@@ -28,7 +28,7 @@ export default {
 <style scoped>
 form {
   margin-top: 2%;
-  width: 95%;
+  width: 96%;
   height: 6%;
   display: flex;
   flex-wrap: nowrap;
@@ -45,15 +45,15 @@ form > * {
   transition: 0.2s;
 }
 input[type="text"] {
-  width: 70%;
+  width: 75%;
   font-size: 1.2em;
   padding: 0 2%;
   border-radius: 10px 0 0 10px;
   background-color: #eee;
 }
 input[type="submit"] {
-  width: 20%;
-  font-size: 1.1em;
+  width: 25%;
+  font-size: 1em;
   border-radius: 0 10px 10px 0;
   background-color: #41b883;
 }
