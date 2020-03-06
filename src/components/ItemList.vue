@@ -1,12 +1,11 @@
 <template>
   <ul v-if="sortedItems.length">
-    <ItemDetails
-      v-for="item in sortedItems"
-      v-bind:item="item"
-      :key="item.id"
-    />
+    <ItemDetails v-for="item in sortedItems" v-bind:item="item" :key="item.id" />
   </ul>
-  <p v-else>add some items to your list <i class="fas fa-arrow-up"></i></p>
+  <p v-else>
+    add some items to your list
+    <i class="fas fa-arrow-up"></i>
+  </p>
 </template>
 
 <script>

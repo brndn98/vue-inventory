@@ -14,6 +14,17 @@
       src="https://kit.fontawesome.com/49d0ab6059.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      let vh = window.innerHeight * 0.01 + "px";
+      document.documentElement.style.setProperty("--vh", vh);
+    </script>
+    <style>
+      body {
+        width: 100vw;
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
+      }
+    </style>
     <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
