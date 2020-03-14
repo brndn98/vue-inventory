@@ -1,19 +1,20 @@
-# vue-shopping-list
+## Simple Inventory / Shopping List App
 
-## Project setup
-```
-npm install
-```
+This is a simple Vue inventory app with **Vuex**.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Vuex
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Vuex was used to manage the app state throughout all the components.<br />
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Some App Details
+
+Data storage with `localStorage`.<br />
+Hosted on Netlify.<br />
+Simple Component tree.<br />
+Styling made with plain CSS.<br />
+Responsive Design.<br />
+This is my first Vue App with Vuex.<br />
+
+## Live Version
+
+[Vue Simple Inventory](https://vuesimpleinventory.netlify.com)
